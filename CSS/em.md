@@ -71,3 +71,32 @@
 </html>
 
 ```
+
+
+
+
+
+```css
+html {
+    font-size: 16px; /* Base font size for the entite document */ 
+}
+
+
+
+body {
+    font-size: 18px;  /* Changes body font size, effecting em but not rem */ 
+}
+
+.container  {
+    font-size: 2rem;   /* 2 * 16px = 32px (Based on the root font size) */ 
+}
+
+.content  {
+    font-size: 1.5em;   /* 1.5 * 18px = 27px (Based on the body's font size) */ 
+}
+
+.nested  {
+    font-size: 1rem;   /* 1 * 16px = 16px (Based on the root font size) */ 
+}
+
+```

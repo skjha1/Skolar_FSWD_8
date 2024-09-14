@@ -5,13 +5,16 @@ class Animal {
     }
 
     sound(){
+        console.log(`${this.name} makes a sound`)
         console.log("Animal makes a sound");
     }
 }
 
 // creating an inastance of the animal class
-let dog = new Animal("name");
+let dog = new Animal("Dog");
+let cat = new Animal("Cat");
 dog.sound(); // Output: Animal makes a sound
+cat.sound();
 
 // Class inheritance 
 

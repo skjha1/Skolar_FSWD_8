@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
     <script src="script.js"></script>
 </body>
 </html>
-
+```
 
 
 
@@ -22,7 +23,7 @@
 -------------------------------
 
 
-
+```css
 #container {
     position: relative;
     width: 400px;
@@ -45,10 +46,10 @@
     transform: translate(-50%, -50%);
     transition: transform 1s ease;
 }
-
+```
 
 -------------------------------------------------
-
+```js
 document.addEventListener('DOMContentLoaded', ()=> {
     const container = document.getElementById("container");
     const myElement = document.getElementById("myElement");
@@ -75,3 +76,4 @@ document.addEventListener('DOMContentLoaded', ()=> {
     rotateElement();
 
 })
+```
